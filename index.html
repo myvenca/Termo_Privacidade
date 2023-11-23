@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt--BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Politica de Entregas</title>
+</head>
+
+<!-- Estilo -->
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;700&display=swap');
+
+    
+
+
+	p {
+		color: #000000;
+		margin-bottom: 1px;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        letter-spacing: 1px;
+        font-family: Inter, arial;
+	}
+
+	li {
+		color: #444;
+        font-family: Inter, arial;
+	}
+
+	button {
+		margin-left: 30%;
+		width: 6%;
+		height: 3%;
+		background: #f1f3f4;
+		border: solid 1px;
+		border-radius: 5px;
+		color: #000000;
+        cursor: pointer;
+	}
+
+   
+
+	section {
+        padding: 10px;
+		display: grid;
+        text-decoration: none;
+	}
+
+    .menu-link {
+        margin-top: 10px;
+    }
+
+    .text-politica {
+        
+        margin-top: 15px;
+        align-items: center;
+        text-align: left;
+    }
+
+
+    .link-menu{
+        color: #444;
+        font-family: Inter, arial;
+        text-decoration: none;
+        display: flex;
+        flex-direction: column;
+        gap: 0.70rem;
+        list-style: none;
+    }
+
+    .link-menu:hover{
+        color: #2b8ffe;
+        text-decoration:underline
+    }
+
+	.grid-template-columns {
+		grid-template-columns: 169px 101px;
+	}
+
+    .botao-voltar {
+       
+        margin-left: 30%;
+        margin-bottom: 1%;
+        margin-top: 10px;
+        padding: 10px;
+        font-family: Inter, arial;
+    }
+</style>
+<body>
+	<div style="display: flex; margin-right: 20%;">
+		<section class="container grid grid-template-columns">
+			<div class="menu-link">
+				<p><strong>Institucional</strong></p>
+				<a class="link-menu" href="#">Quem Somos</a> <br>
+				<a class="link-menu" href="#">Termos de Uso</a> <br>
+                <a class="link-menu" href="#">Politica de Entregas</a> <br>
+                <a class="link-menu" href="#">Politica de Privacidade</a> <br>
+                <a class="link-menu" href="#">Politica de Rembolso</a> <br>
+                <a class="link-menu" href="#">Trocas e Devoluções</a> <br>
+			</div>
+		</section>
+		<div class="text-politica">
+			<p><strong style="font-size: x-large;
+				color: #515254;">Politica de Entregas</strong></p>
+			<p>Ocorrendo tentativas de entrega sem sucesso, o pedido retornará para o Centro de Distribuição da La Salle
+				Store, em Canoas/RS</p>
+			<ul>
+				<li>Para envios pelo Correio - em casos de produtos não entregues por não haver quem os receba no
+					destinatário, encaminharemos SMS de alerta, com as informações das rotas dos produtos.</li>
+				<br>
+				<li>Para envios via Braspress - a mercadoria só retornará para o Centro de Distribuição em casos de
+					falta de retorno do destinatário. Os pedidos podem ser rastreados e acompanhados por meio da
+					plataforma da transportadora.
+					Voltar</li>
+			</ul>
+		</div>
+	</div>
+	<button class="botao-voltar" >Voltar
+        <i class="fa-solid fa-arrow-left-long"></i>
+    </button>
+</body>
+</html>
